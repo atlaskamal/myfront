@@ -1,0 +1,42 @@
+.
+├── Dockerfile
+├── eslint.config.mjs
+├── next.config.ts
+├── next-env.d.ts
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── project-structure.txt
+├── public
+│   └── icons
+│       └── logo.png
+├── README.md
+├── src
+│   ├── app
+│   │   ├── (auth)
+│   │   │   ├── login
+│   │   │   │   └── page.tsx
+│   │   │   └── register
+│   │   │       └── page.tsx
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components
+│   │   └── auth
+│   │       ├── LoginForm.tsx
+│   │       ├── RegisterForm.tsx
+│   │       └── SocialButton.tsx
+│   ├── contexts
+│   │   ├── QueryProvider.tsx
+│   │   └── ThemeProvider.tsx
+│   ├── lib
+│   │   └── api_client.ts
+│   ├── services
+│   │   └── authService.ts
+│   ├── store
+│   │   └── useUserStore.ts
+│   └── types
+│       └── index.ts
+└── tsconfig.json
+
+15 directories, 25 files
